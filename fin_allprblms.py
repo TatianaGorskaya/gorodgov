@@ -1,6 +1,7 @@
 import json
 import pandas as pd
 
+# обработка скачанного json по общему описанию обращений
 
 # руками в txt заменила }{ на },{, завернула все содержимое в {"allresults:"[...]}
 with open('C:/Users/asus_/Desktop/allprbl11_copy.txt') as data_file:

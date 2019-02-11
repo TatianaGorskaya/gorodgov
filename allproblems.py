@@ -15,7 +15,7 @@ def file_for_list(file):
     return new_list
 
 
-# очичение элементов списка
+# очищение элементов списка
 def clean_str(string):
     b = str(string)
     result = re.sub('["\[\'\]{]', '', b)

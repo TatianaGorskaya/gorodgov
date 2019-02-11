@@ -1,6 +1,7 @@
 import json
 import pandas as pd
 
+# обработка скачанного json по общему детальному описанию обращений
 
 with open('C:/Users/asus_/Desktop/detailssnow_corr.txt', encoding='utf-8-sig') as data_file:
     data = json.load(data_file)
