@@ -1,6 +1,8 @@
 import requests as rq
 import time
 
+
+# собираем все обращения
 new_file = open('C:/Users/asus_/Desktop/allprbl11.txt', 'a')
 
 base_url = "https://gorod.gov.spb.ru/api/v3.2/problems/all/?page=%d"
