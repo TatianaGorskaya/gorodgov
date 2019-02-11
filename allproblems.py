@@ -1,6 +1,8 @@
 import re
 import pandas as pd
 
+# сюда можно не смотреть
+
 
 # читаем данные с сайта и преобразуем их в список
 def file_for_list(file):
